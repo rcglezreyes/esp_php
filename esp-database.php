@@ -9,14 +9,14 @@
   copies or substantial portions of the Software.
 -->
 <?php
-  $servername = "localhost";
+  $servername = "jdbc:mysql://sql5.freesqldatabase.com";
 
   // REPLACE with your Database name
-  $dbname = "REPLACE_WITH_YOUR_DATABASE_NAME";
+  $dbname = "sql5669909";
   // REPLACE with Database user
-  $username = "REPLACE_WITH_YOUR_USERNAME";
+  $username = "sql5669909";
   // REPLACE with Database user password
-  $password = "REPLACE_WITH_YOUR_PASSWORD";
+  $password = "trQp7cDG2Y";
 
   function insertReading($sensor, $location, $value1, $value2, $value3) {
     global $servername, $username, $password, $dbname;
